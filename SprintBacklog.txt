@@ -1,0 +1,32 @@
+SprintBacklog
+
+Sprint Ziel:
+Spielbares Grundgerüst des Meiern Spiels, bei dem Spieler korrekt angelegt werden, Eingaben robust verarbeitet werden und erste Runden mit Punktevergaben
+
+User Stories:
+US1:
+Als Spieler möchte ich die Anzahl der Spieler sowie echte Spieler festlegen können, damit ich das Spiel individuell starten kann.
+
+US2:
+Als Spieler möchte ich verständliche Fehlermeldungen erhalten, damit ich falsche Eingaben korrigieren kann.
+
+US3:
+Als Spieler möchte ich den Punktestand nach jeder Runde sehen, damit ich den Spielverlauf nachvollziehen kann.
+
+
+Umsetzungsplan:
+Für US1 (Spieler-Setup)
+Task 1: Eingabe für Gesamtspielerzahl implementieren
+Task 2: Eingabe für echte Spieleranzahl implementieren
+Task 3: Spielernamen erfassen und speichern
+Task 4: KI-Spieler generieren (Fake-Namen + Typen)
+
+Für US2 (Fehlerbehandlung)
+Task 5: Validierung für Zahleneingaben (Bereiche prüfen) implementieren
+Task 6: Fehlermeldungen definieren und ausgeben
+Task 7: Wiederholungslogik bei falscher Eingabe implementieren
+
+Für US3 (Punkte & Runden)
+Task 8: Logik zur Bestimmung des Rundenverlierers implementieren
+Task 9: Punktesystem (Minuspunkte) implementieren
+Task 10: Ausgabe des Punktestands nach jeder Runde implementieren
